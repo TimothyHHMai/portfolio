@@ -12,14 +12,22 @@ export interface TimelineEventItem {
 
 export const allTimelineEvents: TimelineEventItem[] = [
   // Experiences (Sorted by end date implicitly for data entry)
-
+  {
+    date: "2024-8",
+    dateRange: "present",
+    title: "WIP",
+    category: "Experiences",
+    description: `<p>This page is under construction</p>`,
+    isHighlight: true,
+    highlightSummary: `This page is under construction`,
+  },
+  /*
   {
     date: "2024-09",
     dateRange: "July 2024 – September 2024",
     title: "Lorem Ipsum",
     category: "Experiences",
     description: `<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>`,
-    isHighlight: true,
     highlightSummary: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
   {
@@ -33,7 +41,6 @@ export const allTimelineEvents: TimelineEventItem[] = [
     date: "2024-08",
     title: "Sleeping is all you need",
     category: "Publications",
-    isHighlight: true,
     description: `<em>Sleeping is all you need</em> accepted by International Conference on Sleep Deprivation and Coffee Addiction.`,
     highlightSummary:
       "A groundbreaking study proving that people need sleeping, accepted by ICSDCA.",
@@ -56,7 +63,6 @@ export const allTimelineEvents: TimelineEventItem[] = [
     date: "2024-11",
     title: "International Vibe Coding Award",
     category: "Honors",
-    isHighlight: true,
     description: `<p>Awarded the prestigious International Vibe Coding Award.</p>`,
     highlightSummary:
       "Awarded the prestigious International Vibe Coding Award.",
@@ -97,4 +103,5 @@ export const allTimelineEvents: TimelineEventItem[] = [
     category: "Honors",
     description: `<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>`,
   },
+  */
 ];
