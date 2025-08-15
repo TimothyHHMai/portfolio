@@ -33,12 +33,12 @@ export const allProjectsData: ProjectDataItem[] = [
       "Current <strong>portfolio website</strong> you're currently viewing, built with <em>Astro</em>.",
   },
   {
-    title: "KFT Inventory",
+    title: "Kung Fu Tea Inventory",
     timeframe: "Present",
     githubUrl: "https://github.com/TimothyHHMai/kft_inventory",
     //projectUrl: "https://nagare.angine.tech",
     techStack: ["Django", "SQLite"],
-    //imageSrc: "/images/projects/nagare.png",
+    imageSrc: "/images/projects/inventory.jpg",
     imageAlt: "Screenshot of the portfolio website homepage",
     description: `
         <p>Creating a frontend interface for storeowners to manage inventory with ease</p>
@@ -47,7 +47,7 @@ export const allProjectsData: ProjectDataItem[] = [
           If a ingredient runs out, this will allow quick removal of products</p>
       `,
     isFeatured: true,
-    homepageSummary: "Creating a database to make my life <strong>easier</strong>",
+    homepageSummary: "Creating a database to make manage inventory <strong>efficiently</strong> and <strong>accurately</strong>",
   },
     {
     title: "Water Quality",
