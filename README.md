@@ -1,14 +1,4 @@
-# Nagare - Personal Portfolio Website
-
-<p align="center">
-  <img src="https://github.com/angine04/nagare/blob/main/public/images/projects/nagare.png?raw=true" alt="Nagare Project Screenshot" width="600"/>
-</p>
-
-A modern personal portfolio website built with the [Astro](https://astro.build/) framework. It offers a clean, responsive interface to showcase your projects, experience, and contact information.
-
-_A portfolio website template, featuring simplicity, beauty and clarity._
-
-**Live Demo:** [nagare.angine.tech](https://nagare.angine.tech)
+# Personal Portfolio Website
 
 ## Features
 
