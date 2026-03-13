@@ -6,9 +6,23 @@
   <h2>Education</h2>
   <div class="education-entry">
     <div class="header">
-      <span class="institution"
-        ><strong>Rowan University</strong><br /> B.S. in Computer Science, <br/>
-      <span class="date">September 2020 – December 2024</span>
+      <span class="institution">
+        <strong>Drexel University</strong><br />
+        <span class="degree-date">
+          Master's of Science in Data Science
+          <span class="date">Anticipated Summer 2027</span>
+        </span>
+      </span>
+    </div>
+
+    <div class="header">
+      <span class="institution">
+        <strong>Rowan University</strong><br />
+        <span class="degree-date">
+          Bachelor of Science in Computer Science
+          <span class="date">Fall 2024</span>
+        </span>
+      </span>
     </div>
   
   </div>
@@ -24,6 +38,18 @@
     font-weight: 600;
     border-bottom: 1px solid var(--text-muted);
     padding-bottom: 0.5rem;
+  }
+
+  .degree-date {
+  display: flex;
+  justify-content: space-between; /* pushes the date to the right */
+  align-items: center; /* vertically aligns degree and date */
+  width: 100%;
+  }
+
+  .date {
+    margin-left: 20px; /* optional spacing */
+    white-space: nowrap; /* prevents date from wrapping to the next line */
   }
   .education-entry .header {
     display: flex;

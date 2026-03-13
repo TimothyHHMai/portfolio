@@ -33,21 +33,20 @@ export const allProjectsData: ProjectDataItem[] = [
       "Current <strong>portfolio website</strong> you're currently viewing, built with <em>Astro</em>.",
   },
   {
-    title: "Kung Fu Tea Inventory",
+    title: "Weather-Impact-on-Energy-Consumption",
     timeframe: "Present",
-    githubUrl: "https://github.com/TimothyHHMai/kft_inventory",
+    githubUrl: "https://github.com/TimothyHHMai/Weather-Impact-on-Energy-Consumption",
     //projectUrl: "https://nagare.angine.tech",
-    techStack: ["Django", "SQLite"],
-    imageSrc: "/images/projects/inventory.jpg",
+    techStack: ["Python", "Pandas", "Matplotlib", "Numpy"],
+    //imageSrc: "/images/projects/inventory.jpg",
     imageAlt: "Screenshot of the portfolio website homepage",
     description: `
-        <p>Creating a frontend interface for storeowners to manage inventory with ease</p>
-        <p>Developing a backend system to manage items with unique relations</p>
-        <Future Functions: Adding a new table "Products" - allow filtering which ingredients correlate to which product.
-          If a ingredient runs out, this will allow quick removal of products</p>
+        <p>Collected and preprocessed datasets, including electricity demand values, balancing authority regions, and time-series weather variables (wind speed, precipitation, average, maximum, and minimum temperatures).</p>
+        <p>Performed data cleaning, handling missing values, and merging multiple datasets to create a unified, analysis-ready dataset</p>
+        <p>Future Functions: Implement Machine Learning Models to predict electricity demand based on weather data</p>
       `,
     isFeatured: true,
-    homepageSummary: "Creating a database to make manage inventory <strong>efficiently</strong> and <strong>accurately</strong>",
+    homepageSummary: "The goal is to understand how weather variables such as temperature, wind, and precipitation influence daily electricity usage",
   },
     {
     title: "Water Quality",
